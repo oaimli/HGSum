@@ -1,5 +1,5 @@
 # Compressed Heterogeneous Graph for Abstractive Multi-document Summarization
-[![arXiv](https://img.shields.io/badge/arxiv-2305.01498-lightgrey)](https://arxiv.org/pdf/2303.06565.pdf)
+[![arXiv](https://img.shields.io/badge/arxiv-2303.06565-brightgreen)](https://arxiv.org/pdf/2303.06565.pdf)
 
 ### Overview
 Multi-document summarization (MDS) aims to generate a summary for a number of related documents. We propose HGSum — an MDS model that extends an encoder-decoder architecture to incorporate a heterogeneous graph to represent different semantic units (e.g., words and sentences) of the documents. This contrasts with existing MDS models which do not consider different edge types of graphs and as such do not capture the diversity of relationships in the documents. To preserve only key information and relationships of the documents in the heterogeneous graph, HGSum uses graph pooling to compress the input graph. And to guide HGSUM to learn the compression, we introduce an additional objective that maximizes the similarity between the compressed graph and the graph constructed from the ground-truth summary during training. HGSum is trained end-to-end with the graph similarity and standard cross-entropy objectives. 
