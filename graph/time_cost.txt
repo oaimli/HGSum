@@ -1,0 +1,4 @@
+time for graph construction of 200 samples: (preparing graph data + computing sent similarity)
+multinews: 0.11625799364513821h + 0.008569859663645426h
+arxiv: 0.1465368992752499h + 0.013018225232760111h
+wcep_100: 0.14449980192714268h + 0.010948889719115363h
