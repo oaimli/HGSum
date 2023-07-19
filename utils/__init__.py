@@ -1,1 +1,1 @@
-# You'd better to run evaluation seperately, as they may need different requirements.
+# You would better run evaluation seperately, as they may need different requirements.
